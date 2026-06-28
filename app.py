@@ -209,7 +209,7 @@ with tab2:
             "Rating Given": watched_history.values
         })
         st.dataframe(
-            history_df.style.background_gradient(cmap="Blues", subset=["Rating Given"]),
+            history_df,
             use_container_width=True,
             hide_index=True
         )
@@ -227,7 +227,7 @@ with tab3:
     col1, col2 = st.columns([2, 1])
     with col1:
         st.dataframe(
-            similar_users_df.style.background_gradient(cmap="Greens", subset=["Cosine Similarity Score"]),
+            similar_users_df,
             use_container_width=True,
             hide_index=True
         )
