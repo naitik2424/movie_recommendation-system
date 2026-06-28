@@ -1,13 +1,18 @@
-# Movie Recommendation System
+# 🎬 Movie Recommendation System
 
-Collaborative filtering based movie recommendation system 
-built using the MovieLens dataset.
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://naitik2424-movie-recommendation-system-app-wxvxbn.streamlit.app/)
 
-## Tech Stack
-- Python
-- Pandas, NumPy
-- Scikit-learn (Cosine Similarity)
-- Google Colab
+![App Banner](https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1000&auto=format&fit=crop)
+
+**🚀 Live Demo:** [Click here to try the web app!](https://naitik2424-movie-recommendation-system-app-wxvxbn.streamlit.app/)
+
+A sleek, interactive, collaborative filtering-based movie recommendation system built using the MovieLens dataset.
+
+## 🛠️ Tech Stack
+- **Frontend & Deployment:** Streamlit
+- **Language:** Python
+- **Data Processing:** Pandas, NumPy
+- **Machine Learning:** Scikit-learn (Cosine Similarity)
 
 ## Dataset
 MovieLens Small Dataset — 100,836 ratings, 9,742 movies, 610 users
