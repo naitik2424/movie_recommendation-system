@@ -1,0 +1,20 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Datasets / Large Files
+ml-latest-small/
+ml-latest-small.zip
+*.zip
+*.csv
+
+# Streamlit config
+.streamlit/
